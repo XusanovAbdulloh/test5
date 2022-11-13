@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    padding: 30px;
+}
+.go{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: gomalibu;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+@keyframes gomalibu{
+    0%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+10%{
+    transform: translateX(400px);
+    -webkit-transform: translateX(400px);
+    -moz-transform: translateX(400px);
+    -ms-transform: translateX(400px);
+    -o-transform: translateX(400px);
+}
+20%{
+    transform: translate(500px, 300px);
+    -webkit-transform: translate(500px, 300px);
+    -moz-transform: translate(500px, 300px);
+    -ms-transform: translate(500px, 300px);
+    -o-transform: translate(500px, 300px);
+}
+30%{
+    transform: translate(800px, 300px);
+    -webkit-transform: translate(800px, 300px);
+    -moz-transform: translate(800px, 300px);
+    -ms-transform: translate(800px, 300px);
+    -o-transform: translate(800px, 300px);
+}
+40%{
+    transform: translate(800px, 400px);
+    -webkit-transform: translate(800px, 400px);
+    -moz-transform: translate(800px, 400px);
+    -ms-transform: translate(800px, 400px);
+    -o-transform: translate(800px, 400px);
+}
+50%{
+    transform: translate(600px, 400px);
+    -webkit-transform: translate(600px, 400px);
+    -moz-transform: translate(600px, 400px);
+    -ms-transform: translate(600px, 400px);
+    -o-transform: translate(600px, 400px);
+}
+60%{
+    transform: translate(600px,300px);
+    -webkit-transform: translate(600px,300px);
+    -moz-transform: translate(600px,300px);
+    -ms-transform: translate(600px,300px);
+    -o-transform: translate(600px,300px);
+}
+70%{
+    transform: translate(500px, 300px);
+    -webkit-transform: translate(500px, 300px);
+    -moz-transform: translate(500px, 300px);
+    -ms-transform: translate(500px, 300px);
+    -o-transform: translate(500px, 300px);
+}
+80%{
+    transform: translate(0, 280px);
+    -webkit-transform: translate(0, 280px);
+    -moz-transform: translate(0, 280px);
+    -ms-transform: translate(0, 280px);
+    -o-transform: translate(0, 280px);
+}
+90%{
+    transform: translate(0, 210px);
+    -webkit-transform: translate(0, 210px);
+    -moz-transform: translate(0, 210px);
+    -ms-transform: translate(0, 210px);
+    -o-transform: translate(0, 210px);
+}
+}
